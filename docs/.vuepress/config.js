@@ -5,7 +5,7 @@ module.exports = {
   dest: './dist',   // 设置输出目录
   port: 2333, //端口
   head:[
-    ['script',{async:"",src:"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}],
+    // ['script',{async:"",src:"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}],
     ['script',{},'(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-5768745965496632",enable_page_level_ads:!0})']
   ],
   themeConfig: { //主题配置
