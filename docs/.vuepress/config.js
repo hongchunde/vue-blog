@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Tom', // 设置网站标题
-  base: '/blog/',
+  // base: '/blog/',
   description: 'Hello, World', //描述
   dest: './dist',   // 设置输出目录
   port: 2333, //端口
