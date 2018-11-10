@@ -3,10 +3,16 @@ home: true
 actionText: 前往 →
 actionLink: /baseComponents/
 features:
-- title: 布局类组件
-  details: 基本组件，为常用组件提供快速，可用的组件
-- title: 可视化组件
-  details: 积累将数据可视化的业务组件
-- title: 知识库
-  details: 积累前端相关的知识，涵盖 vue、react、koa2、nodejs 相关的知识点
+- title: 编程技术专题
+  details: 操作系统，消息中间件，缓存中间件，数据库系统，WEB后端框架，HTML5开发，前端框架，分布式容器
+- title: 编程开发工具
+  details: 开发集成IDE，代码托管服务器，源码编辑器，反编译工具
+- title: 服务器部署
+  details: 阿里云服务器，ECS，域名注册，解析，备案
+- title: 在线工具箱
+  details: json，XML,HTML格式化，印象笔记，禅道，confluence,xwiki
+- title: 工作简历
+  details: 华南农业大学（软件工程），北京中软国际，南京中兴软创，立信诚毅科技，卓望数码
+- title: 生活专题
+  details: 音乐学习（吉他、钢琴，歌唱），小说阅读，影视专题（TVB），旅游分享（国内，国外），运动健康，篮球
 ---
