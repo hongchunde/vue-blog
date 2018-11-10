@@ -302,39 +302,40 @@ module.exports = {
           title: '印象笔记',
           collapsable: true,
           children: [
-            'dns/register',
-            'dns/cname',
-            'dns/beian'
+            'item/test1',
+            'item/test2'
           ]
         },
         {
           title: '禅道',
           collapsable: true,
           children: [
-            'dns/register',
-            'dns/cname',
-            'dns/beian'
+            'item/test1',
+            'item/test2'
           ]
         },
         {
           title: 'confluence',
           collapsable: true,
           children: [
-            'dns/register',
+            'item/test1',
+            'item/test2'
           ]
         },
         {
           title: 'Wiki',
           collapsable: true,
           children: [
-            'dns/register',
+            'item/test1',
+            'item/test2'
           ]
         },
         {
           title: 'Github',
           collapsable: true,
           children: [
-            'dns/register',
+            'item/test1',
+            'item/test2'
           ]
         }
       ],
