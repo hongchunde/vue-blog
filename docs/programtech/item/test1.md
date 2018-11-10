@@ -17,7 +17,32 @@
 			<div class="footer">
                     MIT Licensed | Copyright © 2018-present <a href="http://www.iamtom.info"> tom</a>
 			</div>
+            <div id="vcomments">
+			</div>
         </div>
 	</div>
 </div>
+
+<script>
+export default {
+  name: 'mycomments',
+   mounted: function(){
+    // require window 
+    const Valine = require('valine');
+    if (typeof window !== 'undefined') {
+      this.window = window
+      window.AV = require('leancloud-storage')
+    }
+    new Valine({
+      el: '#vcomments' ,
+      appId: 'vEoWxri0RFAY1sbxQ2qNHuDY-gzGzoHsz',// your appId
+      appKey: '0qOKnDAKF1Ip4DaPoLdK3ibI', // your appKey
+      notify:false, 
+      verify:false, 
+      avatar:'mm', 
+      placeholder: 'just go go' 
+    });
+  }
+}
+</script>
 </template>
