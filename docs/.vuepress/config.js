@@ -35,8 +35,8 @@ module.exports = {
           title: 'Linux',
           collapsable: true,
           children: [
-            'item/test1',
-            'item/test2'
+            'linux/cmd',
+            'linux/crontab'
           ]
         },
         {
