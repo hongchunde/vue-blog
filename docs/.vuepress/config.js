@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Tom', // 设置网站标题
   // base: '/blog/',
-  description: 'Hello, World', //描述
+  description: 'Hello, World 学海无涯乐作舟', //描述
   dest: './dist',   // 设置输出目录
   port: 3002, //端口
   head:[
@@ -43,8 +43,9 @@ module.exports = {
           title: 'Kafka',
           collapsable: true,
           children: [
-            'item/test1',
-            'item/test2'
+            'kafka/install',
+            'kafka/installSASL',
+            'kafka/cmd'
           ]
         },
         {

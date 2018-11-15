@@ -4,11 +4,12 @@
 		<div class="home">
 			<div class="hero">
 				<p class="description">
-                      Welcome to Linux 
+                      Welcome to {{title}} 
 				</p>
 			</div>
 			<div class="footer">
-                    MIT Licensed | Copyright © 2018-present <a href="http://www.iamtom.info"> tom</a>
+				MIT Licensed | Copyright © 2018-present 
+ 				<a href="http://http://www.miitbeian.gov.cn/"> 粤ICP备18108971号-3</a>			
 			</div>
         </div>
 	</div>
@@ -18,4 +19,9 @@
 
 
 <script>
+export default {
+  name: 'FooterPage',
+  props: ['title', 'description']
+  
+}
 </script>

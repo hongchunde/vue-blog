@@ -29,5 +29,5 @@
 ##### 42 4 1 * * root run-parts /etc/cron.monthly
 
 
-<Common-Footer>
+<Common-Footer title="Linux">
 </Common-Footer>

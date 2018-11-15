@@ -6,7 +6,7 @@
 				<!---->
 				<h1>Tom</h1>
 				<p class="description">
-                      Hello, World
+                      Hello, World 学海无涯乐作舟
 				</p>
 				<p class="action">
 					<a href="/baseComponents/" class="nav-link action-button">前往 →</a>
@@ -53,10 +53,11 @@
 			<div class="content custom">
 			</div>
 			<div class="footer">
-                    MIT Licensed | Copyright © 2018-present <a href="http://www.iamtom.info"> tom</a>
+                    MIT Licensed | Copyright © 2018-present <a href="http://http://www.miitbeian.gov.cn/"> 粤ICP备18108971号-3</a>	
 			</div>
 		</div>
 		<!---->
 	</div>
 </div>
 </template>
+

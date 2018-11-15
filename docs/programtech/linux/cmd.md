@@ -396,5 +396,5 @@
 #### nslookup www.example.com lookup hostname to resolve name to ip address and viceversa 
 #### whois www.example.com lookup on Whois database 
 
-<Common-Footer>
+<Common-Footer title="Linux">
 </Common-Footer>
