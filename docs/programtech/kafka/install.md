@@ -76,25 +76,31 @@ server.3=10.153.78.38:2888:3888
 cd /usr/local/kafka/config      /** 打开目录  **/
 vi server.properties    /** 编辑配置文件  **/
 ------------修改以下内容
-broker.id=1
+broker.id=1   /** 设置server节点，每个服务器不一样，36,37,38分别为1，2，3  **/
 
 # A comma separated list of directories under which to store log files
-log.dirs=/usr/local/kafka/kafka-logs
+log.dirs=/usr/local/kafka/kafka-logs    /** kafka server日志路径 **/
 
 # The default number of log partitions per topic. More partitions allow greater
 # parallelism for consumption, but this will also result in more files across
 # the brokers.
-num.partitions=1
+num.partitions=1 /** 消息主题分区 **/
 
 #listeners=PLAINTEXT://:9092
-port=9092
-host.name=10.153.78.38
+port=9092   /** server端口 **/
+host.name=10.153.78.36  /** 服务器IP **/
 
+/** zookeeper集群连接串 **/
 zookeeper.connect=10.153.78.36:2181,10.153.78.37:2181,10.153.78.38:2181
+```
 
+####  启动kafka server
+<hr></hr>
 
-
-
+```  \\                // 
+ cd /usr/local/kafka/bin   /** 打开目录  **/
+ 
+./kafka-server-start.sh   ../config/server.properties 
 ```
 
 
