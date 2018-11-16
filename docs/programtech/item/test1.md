@@ -16,7 +16,7 @@
 			</div>
 			<div class="footer">
           MIT Licensed | Copyright © 2018-present 
-          <a href="http://http://www.miitbeian.gov.cn/"> 粤ICP备18108971号-3</a>
+          <a href="http://www.miitbeian.gov.cn/"> 粤ICP备18108971号-3</a>
 			</div>
             <div id="vcomments">
 			</div>
