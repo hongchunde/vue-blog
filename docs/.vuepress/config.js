@@ -6,8 +6,8 @@ module.exports = {
   port: 3002, //端口
   head:[
       ['link',{rel:'icon', type:"image/x-icon", href:'/favicon.ico'}]
-    // ['script',{async:"",src:"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}],
-    // ['script',{},'(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-5768745965496632",enable_page_level_ads:!0})']
+      ['script',{async:"",src:"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}],
+      ['script',{},'(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-4615604087148807",enable_page_level_ads: true})']
   ],
   themeConfig: { //主题配置
     // 添加导航栏

@@ -4,6 +4,8 @@
 kafka官网(https://kafka.apache.org/downloads)： 
 <div id="page">
     <img src="/kafkalogo.png"  alt="kafka" />
+     <img src="/attach/pg_node0.png" onclick="javascript:location.href='/attach/node0.zip'" 
+     alt="kafka" />
 </div>
 
 ### 2 集群服务器说明
@@ -99,7 +101,7 @@ zookeeper.connect=10.153.78.36:2181,10.153.78.37:2181,10.153.78.38:2181
 
 ```  \\                // 
  cd /usr/local/kafka/bin   /** 打开目录  **/
- 
+
 ./kafka-server-start.sh   ../config/server.properties 
 ```
 
