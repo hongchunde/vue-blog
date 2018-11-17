@@ -7,7 +7,7 @@ module.exports = {
   head:[
       ['link',{rel:'icon', type:"image/x-icon", href:'/favicon.ico'}],
       ['script',{async:"",src:"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}],
-      ['script',{},'(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-4615604087148807",enable_page_level_ads: true})']
+      ['script',{},'(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-4615604087148807",enable_page_level_ads: true});']
   ],
   themeConfig: { //主题配置
     // 添加导航栏
