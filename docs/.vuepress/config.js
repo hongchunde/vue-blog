@@ -5,7 +5,7 @@ module.exports = {
   dest: './dist',   // 设置输出目录
   port: 3002, //端口
   head:[
-      ['link',{rel:'icon', type:"image/x-icon", href:'/favicon.ico'}]
+      ['link',{rel:'icon', type:"image/x-icon", href:'/favicon.ico'}],
       ['script',{async:"",src:"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}],
       ['script',{},'(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-4615604087148807",enable_page_level_ads: true})']
   ],
