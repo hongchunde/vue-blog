@@ -1,15 +1,17 @@
 module.exports = {
   title: 'Tom', // 设置网站标题
   // base: '/blog/',
-  description: 'Hello, World 学海无涯乐作舟', //描述
+  description: '编程技术,开发工具,在线工具箱,服务器部署,在线工具箱', //描述
   dest: './dist',   // 设置输出目录
   port: 3002, //端口
   head:[
+      ['meta',{name:'keywords',  content:'编程技术,开发工具,在线工具箱,服务器部署,在线工具箱,工作简历,生活专题'}],
       ['link',{rel:'icon', type:"image/x-icon", href:'/favicon.ico'}],
       ['script',{async:"",src:"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"}],
       ['script',{},'(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-4615604087148807",enable_page_level_ads: true});']
   ],
   themeConfig: { //主题配置
+    lastUpdated: '最后更新', // string | boolean
     // 添加导航栏
     nav: [
       { text: '主页', link: '/' }, // 导航条
