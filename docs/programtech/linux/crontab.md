@@ -1,6 +1,14 @@
+---
+title: 定时任务Crontab命令详解
+lang: zh
+meta:
+  - name: description
+    content: 定时任务Crontab命令详解
+  - name: keywords
+    content: 定时任务,Crontab,命令详解
+---
 # 定时任务Crontab命令详解
 ---
-
 ## crond简介
 
 ::: tip 说明
