@@ -290,6 +290,14 @@ module.exports = {
             'dns/cname',
             'dns/beian'
           ]
+        },  
+        {
+          title: 'HTTPS服务搭建，SSL免费证书,',
+          collapsable: true,
+          children: [
+            'https/letsencrypt',
+            'https/nginx'
+          ]
         }
       ],
       '/onlinetool/': [
