@@ -1,3 +1,13 @@
+---
+title: SASL认证的kafka集群安装
+lang: zh
+meta:
+  - name: description
+    content: SASL认证 的kafka 集群安装
+  - name: keywords
+    content: SASL 认证 的kafka 集群安装
+---
+
 # SASL认证的kafka集群安装
 ---
 

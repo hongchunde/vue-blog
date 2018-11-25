@@ -1,3 +1,13 @@
+---
+title:  kafka集群安装
+lang: zh
+meta:
+  - name: description
+    content:  kafka集群安装
+  - name: keywords
+    content:  kafka集群安装
+---
+
 # kafka集群安装
 ---
 ### 1 安装包来源

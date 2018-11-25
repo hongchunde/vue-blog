@@ -78,8 +78,7 @@ module.exports = {
           title: 'Redis',
           collapsable: true,
           children: [
-            'item/test1',
-            'item/test2'
+            'redis/clusterinstall'
           ]
         },
         {
